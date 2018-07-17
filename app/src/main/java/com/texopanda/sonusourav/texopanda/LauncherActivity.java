@@ -31,7 +31,7 @@ public class LauncherActivity extends AppCompatActivity implements Animation.Ani
 
         Splash.Builder splash = new Splash.Builder(this, getSupportActionBar());
         splash.setSplashImage(getDrawable(R.drawable.icon_app));
-        splash.setBackgroundColor(Color.BLACK);
+        splash.setBackgroundColor(Color.BLUE);
         splash.perform();
 
 
