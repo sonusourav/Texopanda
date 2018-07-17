@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".LauncherActivity"
             android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".SampleActivity"
+            android:screenOrientation="portrait"/>
 
     </application>
 

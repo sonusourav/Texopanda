@@ -16,4 +16,27 @@
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
+
+    <string name="account_balance">Account Balance</string>
+    <string name="balance_currency">$</string>
+    <string name="balance_amount">524.99</string>
+
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Register</item>
+        <item>Events</item>
+        <item>About us</item>
+        <item>Support</item>
+        <item />
+        <item>Log Out</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/icon_regist</item>
+        <item>@drawable/icon_event</item>
+        <item>@drawable/icon_about_us</item>
+        <item>@drawable/icon_support</item>
+        <item>0</item>
+    </array>
+
 </resources>

@@ -53,7 +53,8 @@
         <item>@color/dot_inactive_screen3</item>
     </array>
 
-
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
 
 
 
