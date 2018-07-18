@@ -30,4 +30,5 @@ dependencies {
     implementation 'pro.appus:zoom-splash:1.0.0'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.15'
     implementation 'com.yarolegovich:sliding-root-nav:1.1.0'
+    implementation 'com.android.support:cardview-v7:27.1.1'
 }

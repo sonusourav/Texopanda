@@ -1,6 +1,7 @@
 package com.texopanda.sonusourav.texopanda;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -12,6 +13,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.Button;
 
 import com.yarolegovich.slidingrootnav.SlidingRootNav;
 import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
@@ -69,6 +72,15 @@ public class SampleActivity extends AppCompatActivity implements DrawerAdapter.O
         list.setAdapter(adapter);
 
         adapter.setSelected(POS_REGISTER);
+
+        Button btn = findViewById(R.id.button);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SampleActivity.this, Main2Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
