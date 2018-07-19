@@ -53,8 +53,23 @@
         <item>@color/dot_inactive_screen3</item>
     </array>
 
-    <color name="textColorPrimary">#212121</color>
+    <color name="hintUser">#dc7c7c</color>
+    <color name="User">#e65353</color>
+
+    <color name="hintPassword">#dec77d</color>
+    <color name="Password">#f5e463</color>
+
+    <color name="hintConform">#96b76e</color>
+    <color name="Conform">#a1ff54</color>
+
+    <color name="hintEmail">#69b4ba</color>
+    <color name="Email">#2aeaca</color>
+
     <color name="textColorSecondary">#757575</color>
+    <color name="textColorPrimary">#212121</color>
+
+
+
 
 
 

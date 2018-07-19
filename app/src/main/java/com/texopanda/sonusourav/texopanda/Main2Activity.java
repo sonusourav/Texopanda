@@ -1,6 +1,7 @@
 package com.texopanda.sonusourav.texopanda;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -64,6 +65,7 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //register intent here
+                startActivity(new Intent(Main2Activity.this,Registation.class));
             }
         });
 
@@ -139,10 +141,10 @@ public class Main2Activity extends AppCompatActivity {
                                 coverText.setVisibility(View.VISIBLE);
                                 coverImage.setVisibility(View.VISIBLE);
                                 translatiomFlag = true;
-                                RegisterCard.animate().translationYBy(1000).alpha(1).setDuration(350);
-                                EventsCard.animate().translationYBy(1000).alpha(1).setDuration(400);
-                                AboutCard.animate().translationYBy(1000).alpha(1).setDuration(450);
-                                SupportCard.animate().translationYBy(1000).alpha(1).setDuration(500);
+                                RegisterCard.animate().translationYBy(1000).alpha(1).setDuration(500);
+                                EventsCard.animate().translationYBy(1000).alpha(1).setDuration(450);
+                                AboutCard.animate().translationYBy(1000).alpha(1).setDuration(400);
+                                SupportCard.animate().translationYBy(1000).alpha(1).setDuration(350);
                                 swipeFlag=true;
                             }
                         default:

@@ -9,22 +9,24 @@
         android:roundIcon="@mipmap/icon_app"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name="com.texopanda.sonusourav.texopanda.MainActivity" />
-        <activity android:name="com.texopanda.sonusourav.texopanda.WelcomeActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LauncherActivity"
-            android:theme="@style/Theme.Design.NoActionBar"/>
-        <activity android:name=".SampleActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Main2Activity"
-            android:screenOrientation="portrait"/>
-
+        <activity
+            android:name=".LauncherActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".SampleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Registation"></activity>
     </application>
 
 </manifest>
