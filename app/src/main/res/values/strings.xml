@@ -20,6 +20,10 @@
     <string name="account_balance">Account Balance</string>
     <string name="balance_currency">$</string>
     <string name="balance_amount">524.99</string>
+    <string name="abc">Global Offensive (CS:GO) is a first-person shooter video game which is a part of the Counter-Strike series.</string>
+    <string name="bcd">**This is a 5vs 5 Event** \n **Map will be chossen on Spot</string>
+    <string name="bbb">Date - 24/08/2018 \n \n Time - 8:00-16:00 </string>
+    <string name="aaa">CMR Institute of Technology,\n Bengaluru, \n Karnataka 560037</string>
 
 
     <string-array name="ld_activityScreenTitles">
