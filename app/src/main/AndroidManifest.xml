@@ -27,6 +27,13 @@
             android:name=".Main2Activity"
             android:screenOrientation="portrait" />
         <activity android:name=".Registation"></activity>
+        <activity android:name=".event"></activity>
+        <activity
+            android:name=".cs"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fifa" />
+        <activity android:name=".pubg" />
+        <activity android:name=".EventRegister"></activity>
     </application>
 
 </manifest>
