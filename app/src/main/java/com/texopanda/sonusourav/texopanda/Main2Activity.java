@@ -9,8 +9,13 @@ import android.support.v7.widget.CardView;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.MotionEvent;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -52,6 +57,20 @@ public class Main2Activity extends AppCompatActivity {
         coverText = findViewById(R.id.cover_text);
         coverImage = findViewById(R.id.coverImage);
 
+        ImageButton btn = findViewById(R.id.image);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(Main2Activity.this,event.class);
+                startActivity(in);
+            }
+        });
+
+
+
+
+
+
 
 
         RegisterCard.animate().alpha(0).translationYBy(1000);
@@ -65,7 +84,6 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //register intent here
-                startActivity(new Intent(Main2Activity.this,Registation.class));
             }
         });
 
@@ -141,18 +159,32 @@ public class Main2Activity extends AppCompatActivity {
                                 coverText.setVisibility(View.VISIBLE);
                                 coverImage.setVisibility(View.VISIBLE);
                                 translatiomFlag = true;
-                                RegisterCard.animate().translationYBy(1000).alpha(1).setDuration(500);
-                                EventsCard.animate().translationYBy(1000).alpha(1).setDuration(450);
-                                AboutCard.animate().translationYBy(1000).alpha(1).setDuration(400);
-                                SupportCard.animate().translationYBy(1000).alpha(1).setDuration(350);
+                                RegisterCard.animate().translationYBy(1000).alpha(1).setDuration(350);
+                                EventsCard.animate().translationYBy(1000).alpha(1).setDuration(400);
+                                AboutCard.animate().translationYBy(1000).alpha(1).setDuration(450);
+                                SupportCard.animate().translationYBy(1000).alpha(1).setDuration(500);
                                 swipeFlag=true;
                             }
                         default:
                             return false;
                     }
                     return true;
+
                 }
             });
+
+    }
+//    public void launchActivity(View view){
+//        ImageButton btn = findViewById(R.id.image);
+//        btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent in = new Intent(Main2Activity.this, WelcomeActivity.class);
+//                startActivity(in);
+//            }
+//
+//        });
+
+
     }
 
-}
