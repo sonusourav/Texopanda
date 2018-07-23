@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class fifa extends AppCompatActivity {
 
-
+Intent intent;
     Button img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +19,9 @@ public class fifa extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in=new Intent(fifa.this,EventRegister.class);
-                startActivity(in);
+                intent = new Intent(fifa.this,Registation.class);
+                intent.putExtra("check",2);
+                startActivity(intent);
             }
         });
     }

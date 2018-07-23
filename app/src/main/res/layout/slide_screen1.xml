@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_slider_screen1">
+    android:background="@drawable/fore">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -14,16 +14,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/slide_1_title"
-            android:textColor="@android:color/white"
             android:layout_marginBottom="@dimen/slide_title"
+            android:text="@string/slide_1_title"
+            android:textColor="@color/cardview_dark_background"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold" />
 
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/daily_exercise" />
+            android:src="@drawable/gamea" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
             android:paddingRight="@dimen/desc_padding"
             android:text="@string/slide_1_desc"
             android:textAlignment="center"
-            android:textColor="@android:color/white"
+            android:textColor="@color/cardview_dark_background"
             android:textSize="@dimen/slide_desc" />
 
     </LinearLayout>

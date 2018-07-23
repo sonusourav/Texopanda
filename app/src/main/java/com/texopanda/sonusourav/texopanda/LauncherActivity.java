@@ -66,7 +66,7 @@ public class LauncherActivity extends AppCompatActivity implements Animation.Ani
                                 new Handler().postDelayed(new Runnable() {
                                     @Override
                                     public void run() {
-                                        final Intent mainIntent = new Intent(LauncherActivity.this, SampleActivity.class);
+                                        final Intent mainIntent = new Intent(LauncherActivity.this, MainActivity.class);
                                         LauncherActivity.this.startActivity(mainIntent);
                                         LauncherActivity.this.finish();
                                     }

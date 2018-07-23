@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class pubg extends AppCompatActivity {
-
+Intent intent;
     Button img;
 
     @Override
@@ -19,8 +19,9 @@ public class pubg extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in=new Intent(pubg.this,EventRegister.class);
-                startActivity(in);
+                intent = new Intent(pubg.this,Registation.class);
+                intent.putExtra("check",3);
+                startActivity(intent);
             }
         });
     }

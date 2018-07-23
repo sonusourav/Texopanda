@@ -4,16 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_dark_background"
+    android:background="@drawable/pat_red"
     tools:context=".Registation">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#a2000000"
         android:gravity="center_vertical|center_horizontal"
         android:orientation="vertical"
         android:paddingLeft="8dp"
         android:paddingRight="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:color/transparent" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:color/transparent" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:color/transparent" />
+        </LinearLayout>
 
         <EditText
             android:id="@+id/editText"
@@ -21,11 +49,11 @@
             android:layout_height="wrap_content"
             android:background="@drawable/red_ring"
             android:ems="10"
+            android:hint="Name"
             android:inputType="textPersonName"
-            android:hint="Username"
             android:textAlignment="center"
-            android:textColorHint="@color/hintUser"
-            android:textColor="@color/User"/>
+            android:textColor="@color/User"
+            android:textColorHint="@color/hintUser" />
 
         <EditText
             android:id="@+id/editText2"
@@ -33,11 +61,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/yellow_ring"
             android:ems="10"
-            android:inputType="textPassword"
-            android:hint="Password"
+            android:hint="College Name"
             android:textAlignment="center"
-            android:textColorHint="@color/hintPassword"
-            android:textColor="@color/Password"/>
+            android:textColor="@color/Password"
+            android:textColorHint="@color/hintPassword" />
 
         <EditText
             android:id="@+id/editText3"
@@ -45,11 +72,11 @@
             android:layout_height="wrap_content"
             android:background="@drawable/green_ring"
             android:ems="10"
-            android:inputType="textPassword"
-            android:hint="Conform Password"
+            android:hint="Phone Number"
+            android:inputType="phone"
             android:textAlignment="center"
-            android:textColorHint="@color/hintConform"
-            android:textColor="@color/Conform"/>
+            android:textColor="@color/Conform"
+            android:textColorHint="@color/hintConform" />
 
         <EditText
             android:id="@+id/editText4"
@@ -57,11 +84,48 @@
             android:layout_height="wrap_content"
             android:background="@drawable/blue_ring"
             android:ems="10"
-            android:inputType="textEmailAddress"
             android:hint="Email"
+            android:inputType="textEmailAddress"
             android:textAlignment="center"
-            android:textColorHint="@color/hintEmail"
-            android:textColor="@color/Email"/>
+            android:textColor="@color/Email"
+            android:textColorHint="@color/hintEmail" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_cs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#5e3534"
+                android:text="Counter Strick"
+                android:textColorLink="@color/bg_screen4"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/check_fifa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#5e3534"
+                android:text="FIFA"
+                android:textColorLink="@color/bg_slider_screen2"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/check_pubg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#5e3534"
+                android:text="PUBG"
+                android:textColorLink="@color/bg_slider_screen1"
+                android:textSize="18sp" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -70,22 +134,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/btn_orange"
-                android:text="Sign In" />
+                android:text="Register" />
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/btn_blue"
-                android:text="Sign Up" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

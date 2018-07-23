@@ -5,14 +5,14 @@
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
 
-    <string name="slide_1_title">Daily Workout</string>
-    <string name="slide_1_desc">Set your daily workout routine by the help of trainer</string>
+    <string name="slide_1_title">Just Swipe</string>
+    <string name="slide_1_desc">Swipe up or down on this cover to enter the console.</string>
 
-    <string name="slide_2_title">Meditation Techniques </string>
-    <string name="slide_2_desc">Learn about the different meditation techniques and practice them</string>
+    <string name="slide_2_title">Hide Console </string>
+    <string name="slide_2_desc">Swipe the Texopanda logo up or down to hide the console with cover.</string>
 
-    <string name="slide_3_title">Diet Chart</string>
-    <string name="slide_3_desc">Make your diet chart by the help of health experts</string>
+    <string name="slide_3_title">Events</string>
+    <string name="slide_3_desc">Tap on the game logo to view Events and Register for it.</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>

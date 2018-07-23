@@ -20,20 +20,16 @@
         <activity
             android:name=".LauncherActivity"
             android:theme="@style/Theme.Design.NoActionBar" />
-        <activity
-            android:name=".SampleActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Main2Activity"
-            android:screenOrientation="portrait" />
-        <activity android:name=".Registation"></activity>
-        <activity android:name=".event"></activity>
+        <activity android:name=".Registation" />
+        <activity android:name=".event" />
         <activity
             android:name=".cs"
             android:screenOrientation="portrait" />
         <activity android:name=".fifa" />
         <activity android:name=".pubg" />
-        <activity android:name=".EventRegister"></activity>
+        <activity android:name=".EventRegister" />
+        <activity android:name=".Support" />
+        <activity android:name=".About_us"></activity>
     </application>
 
 </manifest>

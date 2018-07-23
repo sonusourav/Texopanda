@@ -1,4 +1,4 @@
-package e.android.demo;
+package com.texopanda.sonusourav.texopanda;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,6 +19,11 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.texopanda.sonusourav.texopanda.R;
+import com.texopanda.sonusourav.texopanda.cs;
+import com.texopanda.sonusourav.texopanda.fifa;
+import com.texopanda.sonusourav.texopanda.pubg;
 
 
 public class event extends AppCompatActivity {

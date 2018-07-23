@@ -2,15 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ba">
+    android:background="@drawable/pat_blue">
+
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="170dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -25,13 +25,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
+            android:background="#a16dff"
             android:text="Counter Strike"
-            android:textColor="@android:color/white"
+            android:textColor="@color/Password"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold" />
-
-
-
 
 
     </LinearLayout>

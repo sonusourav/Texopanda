@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_slider_screen3">
+    android:background="@drawable/pat_green">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/slide_3_title"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/slide_title"
             android:layout_marginBottom="@dimen/slide_title"
+            android:background="#a6ff84"
+            android:text="@string/slide_3_title"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/slide_title"
             android:textStyle="bold" />
 
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/diet_plan" />
+            android:src="@drawable/fi" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:background="#FFA6FF84"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
             android:text="@string/slide_3_desc"
             android:textAlignment="center"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/holo_red_light"
             android:textSize="@dimen/slide_desc" />
     </LinearLayout>
 </RelativeLayout>	

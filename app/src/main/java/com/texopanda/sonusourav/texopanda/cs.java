@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 public class cs extends AppCompatActivity {
 
  Button img;
+ Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,8 +19,9 @@ public class cs extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in=new Intent(cs.this,EventRegister.class);
-                startActivity(in);
+                intent = new Intent(cs.this,Registation.class);
+                intent.putExtra("check",1);
+                startActivity(intent);
             }
         });
 
